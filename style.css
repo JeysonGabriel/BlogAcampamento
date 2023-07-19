@@ -1,0 +1,78 @@
+.body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#IMGprincipal{
+    width: 100%;
+}  
+
+#textoPrincipal{
+    width: 550px;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    z-index: 1;
+  }
+@media (max-width: 980px){
+    #textoPrincipal{
+        width: 350px;
+        top: 15%;
+    }
+}
+@media (max-width: 700px){
+    #textoPrincipal{
+        width: 250px;
+        top: 10%;
+    }
+}
+@media (max-width: 460px){
+    #textoPrincipal{
+        position: relative;
+    }
+}
+
+#nome{
+    font-size: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media (max-width: 980px) {
+    #nome {
+      font-size: 35px;
+    }
+  }
+  @media (max-width: 700px) {
+    #nome {
+      font-size: 20px;
+    }
+  }
+  
+
+#navbarNav{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#gradiente{
+    position: inherit;
+    margin-top: -10px;
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(black, rgb(58, 58, 58)
+    );
+
+}
+
+.nav-link{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.navbar-brand{
+    margin-left: 6%;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
